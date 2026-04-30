@@ -1,0 +1,24 @@
+{
+  "name": "express-blog-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayeshakhiyani/express-blog-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayeshakhiyani/express-blog-project/issues"
+  },
+  "homepage": "https://github.com/ayeshakhiyani/express-blog-project#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-cdn": "^0.4.0"
+  }
+}
