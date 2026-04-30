@@ -187,11 +187,18 @@ app.get("/blog/:topic", (req, res) => {
   }
 });
 
-app.listen(5500, () => {
-  console.log("Server running on port 5500");
-});
+// app.listen(5500, () => {
+//   console.log("Server running on port 5500");
+// });
 
 app.get("/", (req, res) => {
   res.setHeader("Content-Type", "text/html");
   res.send(`...`);
+});
+
+
+const PORT = process.env.PORT || 5500;
+
+app.listen(PORT, () => {
+  console.log("Server running on port " + PORT);
 });
